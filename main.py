@@ -31,3 +31,12 @@ print("URLs:", extract_urls(sample_text))
 print("Phone numbers:", extract_phone_numbers(sample_text))
 print("Hashtags:", extract_hashtags(sample_text))
 print("Credit card numbers:", extract_credit_card_numbers(sample_text))
+
+#edge case test
+print("\nTesting with empty string:")
+empty = ""
+print("Emails:", extract_emails(empty))
+print("URLs:", extract_urls(empty))
+print("Phone numbers:", extract_phone_numbers(empty))
+print("Hashtags:", extract_hashtags(empty))
+print("Credit card numbers:", extract_credit_card_numbers(empty)) 
