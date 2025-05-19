@@ -7,6 +7,7 @@ This project extracts data from text using Regular Expressions in Python.
 - URLs
 - Phone Numbers
 - Hashtags
+- Credit card numbers
 
 ## How to Run
 
@@ -18,5 +19,6 @@ python main.py
 ```python
 Emails: ['user@example.com', 'support@company.co.uk']
 URLs: ['https://www.example.com', 'https://subdomain.example.org/page']
-Phone Numbers: ['(123) 456-7890', '123-456-7890', '123.456.7890']
+Phone numbers: ['(123) 456-7890', '123-456-7890', '123.456.7890']
 Hashtags: ['#RegexPower', '#CodeLife']
+Credit card numbers: ['1234-5678-9012-3456', '4111 1111 1111 1111']
